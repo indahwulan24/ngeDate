@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ngeDate</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">SIGN IN</string>
+    <string name="fullname">Full Name</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="address">Address</string>
+    <string name="hobby">Hobby</string>
+    <string name="partner_criteria">Partner Criteria</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="submit">SUBMIT</string>
+    <string name="cancel">CHOOSE IMAGE</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="create_a_new_account">Create a New Account!</string>
+    <string name="register">Register</string>
+    <string name="title_activity_thisuser">thisuser</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_list_user">ListUser</string>
+    <string name="title_activity_listuser">listuser</string>
+    <string name="gender">Gender</string>
+</resources>

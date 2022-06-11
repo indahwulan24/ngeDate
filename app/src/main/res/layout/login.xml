@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background= "#B8988E"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="290dp"
+        android:layout_height="292dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/log" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:id="@+id/met1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:hint="@string/username"
+            android:drawableStart="@drawable/ic_name"
+            android:background="@drawable/custom"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/met1"
+        android:id="@+id/met2"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:background="@drawable/custom"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:drawableStart="@drawable/ic_password"
+            android:drawableEnd="@drawable/ic_mata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="450px"
+        android:layout_height="170px"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="30dp"
+        android:onClick="clickLogin"
+        app:cornerRadius = "80dp"
+        android:text="@string/login"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="#B57A67"/>
+
+</LinearLayout>
